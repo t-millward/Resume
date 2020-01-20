@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Info</title>
+  </head>
+  <body>
+    <p>Trevor Millward</p>
+    <p>9460 Mitchell Ct</p>
+    <p>Longmont, CO 80503</p>
+    <p>phone 303-241-7661</p>
+    <p><strong>email</strong><em> tmillward@protonmail.com</em></p>
+<hr>
+
+<form enctype="text/plain" action="mailto:tmillward@protonmail.com" method="post">
+  <label>Your Name:</label>
+  <input type="text" name="your name" value=""><br>
+
+  <table><tr>
+    <td><input type="radio" name="recruiter" id="recruiter" value="recruiter"></td>
+    <td><label >Recruiter</label></td>
+  </tr></table>
+  <table><tr>
+    <td><input type="radio" name="hiring manager" id="hiring manager" value="hiring manager"></td>
+    <td><label for="hiring Manager">Hiring Manager</label></td>
+  </tr></table>
+  <table><tr>
+    <td><input type="radio" name="other" id="other" value="other"><br></td>
+    <td><label for="other">Other</label></td>
+  </tr></table><br><br>
+
+  <label>Your Email:</label>
+  <input type="emial" name="your email" value=""><br>
+
+  <label for="your message">Your Message:</label>
+  <textarea name="your message" id="" cols="40" rows="10"></textarea><br><br>
+  <input type="submit" value="Submit">
+
+</form>
+
+  </body>
+</html>
